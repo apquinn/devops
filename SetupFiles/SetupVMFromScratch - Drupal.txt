@@ -1,0 +1,44 @@
+Drupal 8 Setup
+
+
+composer create-project drupal-composer/drupal-project:8.x-dev Drupal --no-interaction
+cd /htdocs/Drupal
+composer require drupal/console:~1.0 --prefer-dist --optimize-autoloader
+composer update drupal/console --with-dependencies
+
+
+Twig
+- {% code %}
+- {{ output }}
+
+vendor/bin/drupal generate:module
+vendor/bin/drupal generate:form:config
+vendor/bin/drupal cache:rebuild
+
+Module -> executes based on path on primary page content
+Module Service -> Launch on event for same
+
+
+drupal generate:module --module="DrewTest1" --machine-name="drewtest1" --module-path="\modules\custom" --description="Drew's Awesome Module" --core="8.x" --package="" --features-bundle="" --dependencies="" --test=""
+drupal module:install drewtest1
+
+
+--module="DrewTest1"
+--machine-name="drewtest1"
+--module-path="\modules\custom"
+--description="Drew's Awesome Module"
+--core="8.x"
+
+--package			optional	Module package
+--features-bundle	optional	Define module as feature using the given Features bundle name
+--dependencies		optional	Module dependencies separated by commas (i.e. context, panels)
+--test				optional	Generate a test class
+
+# Add to include
+--composer			optional	Add a composer.json file
+--module-file		optional	Add a .module file
+--twigtemplate		optional	Generate theme template
+
+
+
+

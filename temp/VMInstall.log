@@ -1,0 +1,934 @@
+Resolving Dependencies
+--> Running transaction check
+---> Package rsync.x86_64 0:3.1.2-10.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package         Arch             Version                  Repository      Size
+================================================================================
+Installing:
+ rsync           x86_64           3.1.2-10.el7             base           404 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 404 k
+Installed size: 815 k
+Downloading packages:
+Public key for rsync-3.1.2-10.el7.x86_64.rpm is not installed
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Running transaction check
+Running transaction test
+warning: /var/cache/yum/x86_64/7/base/packages/rsync-3.1.2-10.el7.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY
+Importing GPG key 0xF4A80EB5:
+ Userid     : "CentOS-7 Key (CentOS 7 Official Signing Key) <security@centos.org>"
+ Fingerprint: 6341 ab27 53d7 8a78 a7c2 7bb1 24c6 a8a7 f4a8 0eb5
+ Package    : centos-release-7-9.2009.0.el7.centos.x86_64 (@anaconda)
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+Transaction test succeeded
+Running transaction
+  Installing : rsync-3.1.2-10.el7.x86_64                                    1/1 
+  Verifying  : rsync-3.1.2-10.el7.x86_64                                    1/1 
+
+Installed:
+  rsync.x86_64 0:3.1.2-10.el7                                                   
+
+Complete!
+building file list ... done
+created directory /root/Linode
+./
+.DS_Store
+.gitignore
+.git/
+.git/.DS_Store
+.git/COMMIT_EDITMSG
+.git/FETCH_HEAD
+.git/HEAD
+.git/ORIG_HEAD
+.git/config
+.git/description
+.git/index
+.git/hooks/
+.git/hooks/applypatch-msg.sample
+.git/hooks/commit-msg.sample
+.git/hooks/fsmonitor-watchman.sample
+.git/hooks/post-update.sample
+.git/hooks/pre-applypatch.sample
+.git/hooks/pre-commit.sample
+.git/hooks/pre-merge-commit.sample
+.git/hooks/pre-push.sample
+.git/hooks/pre-rebase.sample
+.git/hooks/pre-receive.sample
+.git/hooks/prepare-commit-msg.sample
+.git/hooks/update.sample
+.git/info/
+.git/info/exclude
+.git/logs/
+.git/logs/HEAD
+.git/logs/refs/
+.git/logs/refs/heads/
+.git/logs/refs/heads/master
+.git/logs/refs/remotes/
+.git/logs/refs/remotes/origin/
+.git/logs/refs/remotes/origin/master
+.git/objects/
+.git/objects/00/
+.git/objects/00/02462ce85dcda4d1038319b5989a3f859a6213
+.git/objects/00/b733c7c3e7ba3d16cc831f8cb00b8ac2fbb3d0
+.git/objects/02/
+.git/objects/02/25f51605ca9993767e584f8cd43c5b0304c53e
+.git/objects/02/7a54fd5bf86fee78f16f0cced9d8cb0b36c635
+.git/objects/02/8d2408249c017743d818e9a426c38c1c91a67b
+.git/objects/03/
+.git/objects/03/840bc3705f4c036c254ff6cce455c2be31c37a
+.git/objects/03/abb34b614155a14011bfc37ebbc941eddb66b2
+.git/objects/04/
+.git/objects/04/74935346a424920ec23732d368c9bfbe11b537
+.git/objects/04/bb2abb3968d4349ec8de50846760892775e515
+.git/objects/05/
+.git/objects/05/611d114a46fe19dcbc8db0b9f540d8714dece4
+.git/objects/05/c56d9e87794117ce94f840aa1e8fe340bd47c4
+.git/objects/06/
+.git/objects/06/92e1a1f9fce26c2dc4950d4eb54f9b46d55214
+.git/objects/07/
+.git/objects/07/0e5572bc5e73db508a057631ca5adcb0da77d2
+.git/objects/07/136b43f0c6695d3f5de0016d112809c7d0e724
+.git/objects/08/
+.git/objects/08/c0826dac602ec19fc1e7d10170ee248773836d
+.git/objects/09/
+.git/objects/09/207df7a4cd4745c43d2480f9e24aad3217ccdb
+.git/objects/09/3ae6beeb2ea6d193fdf1cf6b701ae75ef938ac
+.git/objects/09/b9b3b361665f99e149c2d4fb7b8d5d8cbec64c
+.git/objects/09/f9f446ec8ff7907fb874c5182ca589ec70285f
+.git/objects/0c/
+.git/objects/0c/74f2a7cae77faedfaed6c8d386a12ed5fa9694
+.git/objects/0c/b8b07bf2264d59c0e557c01818c26308339081
+.git/objects/0d/
+.git/objects/0d/210b3010cb057021ce07ee7471ad61a78639a5
+.git/objects/0e/
+.git/objects/0e/3eb1473b52a6acf078772e8b410e96fdd4f421
+.git/objects/0e/6d2f3f099e4a049dd544144f4674c17122c2e7
+.git/objects/0e/f90f3d1846f8d27fc1bbf98978506d040c7bd3
+.git/objects/0f/
+.git/objects/0f/188fcf54db0187c6da67f551e4d0d1e9c28e9e
+.git/objects/0f/321bc8c8eabf25730d34d1575e10b480f5765d
+.git/objects/11/
+.git/objects/11/3c2998b181963fe0ba09bce6bb4ecf4e5c6075
+.git/objects/11/87919bb5de41e4aef7d27ee0b9898b842d0a60
+.git/objects/11/a7556f150cef72e974dec92c583a9c50e90190
+.git/objects/11/f402be29813cd2209cc21b030d856ecb0ed11c
+.git/objects/12/
+.git/objects/12/12bfc1d53b418a65074c4f55219dd75d0ad55d
+.git/objects/12/744898c32bf94e5621a991e2c02560fd6acd9e
+.git/objects/12/af028614b0ae7d90546b8aced2b70e5ef3df66
+.git/objects/14/
+.git/objects/14/5fba9cf3b4ab1cea7e3678df152f80814f3ff2
+.git/objects/15/
+.git/objects/15/497921b104875adfcfd083eba06255b03093ba
+.git/objects/15/f689203cb262cf36ae80db6b0e090f8a3834ff
+.git/objects/16/
+.git/objects/16/00d9dfa5f1c4ea9c5adbddb6bb3ffb8c59c8af
+.git/objects/16/4b2b9d35471f88939139f9e8d3c91d8ae4a1d6
+.git/objects/1b/
+.git/objects/1b/ab2e83491e2ece70d2623a0d3b66add6b1bae3
+.git/objects/1c/
+.git/objects/1c/343d2c16e6a114c56544da9a2e387ce97bc258
+.git/objects/1d/
+.git/objects/1d/1c5c847e68b750c9f66a60c014f18fc3846fb0
+.git/objects/1d/5f4587f5f20ad1d56bc8ac163b51e5c3831bc7
+.git/objects/1d/85cc8ebd1492e76df8ea8f0143f1aa641f3b06
+.git/objects/1d/a13970af3645f592320d81cb1ef4d631498a60
+.git/objects/1e/
+.git/objects/1e/1a7ed734da83e07fd7ae9d655492e9ec7bd2c2
+.git/objects/1e/735112368f807fde604ecc54b8251a27d27313
+.git/objects/1e/e3e20f61fec6c67e28138395b8b53db7285ac0
+.git/objects/1f/
+.git/objects/1f/2e1fa3aacd0510fc3b917cd7d98a6ba4a721d1
+.git/objects/20/
+.git/objects/20/edd1a0e3cd70d2b00e63556950e083e0277805
+.git/objects/22/
+.git/objects/22/b13ce6173a7f989489ad558993b7eea3eef2b1
+.git/objects/23/
+.git/objects/23/5a2b43933e8416b22d9feb4e360a9c2e953476
+.git/objects/24/
+.git/objects/24/43579288e8cc05fd6e266ae254feab01a66044
+.git/objects/24/7ec4d2051c8940ebab114934b15807814b03f5
+.git/objects/24/99d70dd06dd1862b0c64ad54f5d04550890d48
+.git/objects/24/9d6313b1b41e5b4538ed6605f245fa558bc030
+.git/objects/24/d19b8459afd9e3af8e2e22f344df613e12d3f7
+.git/objects/24/f7d2a53d4094a9594003bb5fd23f04c6c54950
+.git/objects/26/
+.git/objects/26/964b3a64192a68e2e5a2bdb7202cc5a9b7c97a
+.git/objects/27/
+.git/objects/27/7a5f243b5b4ba3021b6868a205d2b5632e000e
+.git/objects/28/
+.git/objects/28/1533f4a09269b0857744cb8512a9469152b710
+.git/objects/28/ac3a17da6023123e4f743d2d8a79ef18318e02
+.git/objects/29/
+.git/objects/29/5e63a1457be586355d3fda59377c852ccedb42
+.git/objects/2a/
+.git/objects/2a/58fb8b2ce2deb83003a9df64b48ac445516aba
+.git/objects/2a/6ca65b2f863d58074751566e831dd3931d4a17
+.git/objects/2c/
+.git/objects/2c/4ca74efc1cc795f26b2aef74cdeed72bece0f2
+.git/objects/2c/bdd35af07f2dc0dab78f93e043f992e1e4820b
+.git/objects/2e/
+.git/objects/2e/3929e86e6b212a12a57c8cd5d5dfa280d0f632
+.git/objects/2e/998e021b8db88f8d582c2298335c76d84cee77
+.git/objects/2e/ead01a4a6ef84381269e15ed71fa0f560f96af
+.git/objects/2f/
+.git/objects/2f/c74d56614c1af24fa3c540a2921ee7b78fd348
+.git/objects/30/
+.git/objects/30/4196f56fba49896e668cd609ba542c893da877
+.git/objects/31/
+.git/objects/31/c857ab59562fc94d037228287a59253cb04da9
+.git/objects/33/
+.git/objects/33/9986f8c1d542a397fca6da43e167a958f42d45
+.git/objects/34/
+.git/objects/34/49cab5a01a4044a953c446994762e0e8f59552
+.git/objects/34/9b6216b1cb5ca942080dd48cfbab6b85790415
+.git/objects/35/
+.git/objects/35/569bbbd608d5396a980b073788a48a90e95ff4
+.git/objects/35/cf764b892240b5de6341af867cb0881bbe163f
+.git/objects/35/fff157ea747a00f5eff0b810a104271df05d67
+.git/objects/36/
+.git/objects/36/f0f2a4b249db96f719455e47cec716f20f85e7
+.git/objects/37/
+.git/objects/37/21395cd24fa4b3f9c1593b3ffec9197a80d9ec
+.git/objects/38/
+.git/objects/38/32ca5046821dc4d3c3cb2e74436ee147eca54a
+.git/objects/39/
+.git/objects/39/7f878be066345bb2d75c5761aa9f1a27535b54
+.git/objects/3a/
+.git/objects/3a/bef42384935390c737168e68dac6fbbec0ae12
+.git/objects/3b/
+.git/objects/3b/8603423b5295528e5788989f572280463e593b
+.git/objects/3b/ea7ffa998df741d4609f8c0de89d09f1304818
+.git/objects/3e/
+.git/objects/3e/152f75016821c691617787cc00a260697627ca
+.git/objects/3e/192436269e36400e509ddddccd24453559cfde
+.git/objects/3e/6509f8b465e8436f37850f5f244d9599ebb345
+.git/objects/3e/6b0dec6b5ee174d6f6f55b04d3ee0c16d46cbc
+.git/objects/3f/
+.git/objects/3f/3d00bd1198caf680f005eb4b0209ac8670ee2b
+.git/objects/40/
+.git/objects/40/49c0b4cc6ac832dcfc973e1a4b2997805c06d7
+.git/objects/41/
+.git/objects/41/ad00f635564a2abb38f9a51eedfb8c234d2375
+.git/objects/42/
+.git/objects/42/d22e9b6384a5efa13c0ea863124c2c85d1a550
+.git/objects/43/
+.git/objects/43/1404f99f0f23e079ecb80a0bfa040822de0e1e
+.git/objects/43/4b1792196176ec9e818cdf523a517227d88da3
+.git/objects/43/f402e3a06495359b7b52bf30e943c0fc4be556
+.git/objects/44/
+.git/objects/44/75488f6e88e06a254f338ef22119d393380da9
+.git/objects/44/9620ae916ab3af72a1fbc500364f511102a812
+.git/objects/45/
+.git/objects/45/911fedd038a7f765e6dc35586d89d7f7580a86
+.git/objects/47/
+.git/objects/47/68804ad6595fd3c493431d406a6e5fd0933cbb
+.git/objects/47/b3d170e7db86deb1d71c42f9fd9fda53797a60
+.git/objects/48/
+.git/objects/48/34f54d4ef64567a56b33b3f7e8ac6e166b90ed
+.git/objects/48/441731dfb64cbaa3f20575a8c85c74218a56f1
+.git/objects/49/
+.git/objects/49/6a59a5098eadf339f503932b06fbebf08397fb
+.git/objects/49/b338157f91c248dd24a3d8ee75a532e69ed8d1
+.git/objects/4a/
+.git/objects/4a/6f5c736f40434876fc77e83dc478742d9b1bb5
+.git/objects/4b/
+.git/objects/4b/53aa54f813c1577decdcac41aa4fe195084135
+.git/objects/4b/a412f9fac858ab04d7c16eaf7f036b7ffea669
+.git/objects/4b/bdf982c81b4fa54ac93681a03836455e50e23c
+.git/objects/4b/d5b3657956175653fc673e59d8d4e070630b1a
+.git/objects/4c/
+.git/objects/4c/e19e9e5621cfb974cf85687a65906a00e09e0b
+.git/objects/4c/f08d006fb844f8c828987f389e9d2fb605cded
+.git/objects/4d/
+.git/objects/4d/8e05c63cccf18040197a932ec49ca948caf1cc
+.git/objects/4e/
+.git/objects/4e/14b394581fab3e26afd9b6697caf3dd7ddd281
+.git/objects/4e/d5164081262f343cafcfba009bc178de161567
+.git/objects/4f/
+.git/objects/4f/21837a264161f80466fd24b9cae8407ca4bf82
+.git/objects/50/
+.git/objects/50/08ddfcf53c02e82d7eee2e57c38e5672ef89f6
+.git/objects/50/33454718acc841e04fdca9b87f8dc87e4f8171
+.git/objects/50/50078ff851957acb30253390cf8f2d0fa5c2c3
+.git/objects/51/
+.git/objects/51/3c1b14b8da291deddac6fe70022b2515833977
+.git/objects/51/410ebe081cebb5543a1d265c857d6b27e049d7
+.git/objects/51/6ecd179fb82fac7cd85ee5a19de9602d9a24f7
+.git/objects/51/ccd3b4e72174ac9a21dab4b53415ddcb4061fb
+.git/objects/52/
+.git/objects/52/b0d0afbb23b966b2eb1bcc6ee86648ea82c58d
+.git/objects/54/
+.git/objects/54/4fc822ae45e2b216a1f8d4fe9019ba90ee152a
+.git/objects/54/6e468ab835ab20f9674b80a8ad2dde3237a718
+.git/objects/54/d5354d72c12949c2c56bd64c1889776b5a5531
+.git/objects/54/ee19732b90634e349e16c4e3c0538186adc3b2
+.git/objects/55/
+.git/objects/55/4ea8db44d3b39aaf2b818582114ff9ac806e7f
+.git/objects/55/aa31d716930c1604f405e053ce06df97b6359a
+.git/objects/55/f7861fb980f09332e2531488f54b1fd3e798dc
+.git/objects/56/
+.git/objects/56/2595a523c8fa3e8c5289c070a339fdf93fcacb
+.git/objects/56/c946a4e2195f3cddefb4ac4e82ccc31c0ff55a
+.git/objects/57/
+.git/objects/57/4af6ddbe9802eb2943c786f0ff251597c97faf
+.git/objects/57/860a7908bfe73af5253d43950d5bb118ba8807
+.git/objects/57/f799ab5294049d0116fb34fe9010120ac2e619
+.git/objects/58/
+.git/objects/58/f8b859c65ba811b3520b89db0e82fce322b5c3
+.git/objects/59/
+.git/objects/59/030a31473ffbbbec2636051c2865718ad04d2d
+.git/objects/59/03c91b02c24ab9faba5814c672e5e01ddc544f
+.git/objects/59/35e8ba8992e7e3ab432509d37a01232b4dbb57
+.git/objects/5a/
+.git/objects/5a/1cadb3a2bd2717973565198a7883b803644b93
+.git/objects/5a/520e0e6e5b6e9c8fcdb8b08934e0435ca94225
+.git/objects/5b/
+.git/objects/5b/00fc92f47dea0ca3bd2a47c8cbf67a3c85d68a
+.git/objects/5b/76cbb814e40484333a8f9bceee4c0c69a894a5
+.git/objects/5b/bce46ee05194a2cc6de9e6d0a1a4cf579d3043
+.git/objects/5c/
+.git/objects/5c/72843126b2d793da691a756d72730b53db4f98
+.git/objects/5c/a660e6db7f3ada5cdc71c29d44642fcfc0d7cc
+.git/objects/61/
+.git/objects/61/508993d7be46469f8ac40c5e6bef1d8001fc1c
+.git/objects/64/
+.git/objects/64/3273c58f91e5fa8daad88d7ec1c224b600e3d3
+.git/objects/66/
+.git/objects/66/e9f09ab27dc8d209b9e6d827f98ca6e47cc5a3
+.git/objects/67/
+.git/objects/67/233928b705ce3dda581a998cccf6ecbe27b504
+.git/objects/67/2f9688667971ad41ab52433797982d15f7d445
+.git/objects/68/
+.git/objects/68/ff61ec7235ad81e7f9f0e83525c06963968170
+.git/objects/69/
+.git/objects/69/72adcab10719278eaf737444a7e13db49b4335
+.git/objects/69/dd37baac043bd874a00431ce0250fb3d046ea0
+.git/objects/6b/
+.git/objects/6b/0be345bba0883af9ea08261d154a59c15bb62b
+.git/objects/6b/3b7b53fe6f23f43c654db6f82e93aea726f7e1
+.git/objects/6b/652db6527a3e28e69f6b1ce3f0cc939e520842
+.git/objects/6c/
+.git/objects/6c/2766043ef59a1dc6440eba85d7dd8ece5d1792
+.git/objects/6c/7bc90a6df887bb3ad56246c90633225e62c084
+.git/objects/6c/a3e1878f982589c01936b84e1f4f89534d5b1c
+.git/objects/6c/aa40ada7c705cd67f303511e6a420fe115a155
+.git/objects/6d/
+.git/objects/6d/10b6fe43aeb889c63d7ccde9bed50e41174606
+.git/objects/6d/92acc3fb10873f3a00e5a87b567bd7513d8fc2
+.git/objects/6d/f2d6cafef8d9a0a05840cc84bcac63bf211d2b
+.git/objects/6e/
+.git/objects/6e/80e84808d8bc4e5853ea2c7a781650d1e30845
+.git/objects/6f/
+.git/objects/6f/7019dab8972a861f7bf83079491ca261f06397
+.git/objects/6f/72479548d4077757f4492f3da20ccdccc1e2ba
+.git/objects/6f/9e00a7e8621c4461d54068e3954941f8a3b398
+.git/objects/6f/ef1a3699caf9b558bbf23fc225fde583e727b9
+.git/objects/6f/f408886323e65e5ac37d7cf152f879398707a7
+.git/objects/70/
+.git/objects/70/0b4d9342c9b0dc3fde250feb83129755964f4f
+.git/objects/70/7f6982038f2b5b7fbf39a48f6437cd487fa4b6
+.git/objects/71/
+.git/objects/71/76ab76071761f52c8d4314ac42b66e02c356ac
+.git/objects/72/
+.git/objects/72/9475789c2de9119ca9374d77764c06c2849976
+.git/objects/73/
+.git/objects/73/21e5efd4b1f21a8e3af811576bfd512c44a3e4
+.git/objects/73/a54575ee761ce170135976e5551b4212d9bc45
+.git/objects/73/c29763657e829b04b84c1bec2e8f3104e6aa5b
+.git/objects/75/
+.git/objects/75/2aa573f1d735fba0945d7ed7f0d68385e06d85
+.git/objects/77/
+.git/objects/77/6508565b10a15b0317544f237d4e84b7968ec5
+.git/objects/77/857347972c7b7e7d042185fcfef491b5a9159a
+.git/objects/78/
+.git/objects/78/1c48c76bc8daca476d40f8ca396d5b050d30a7
+.git/objects/78/6792e8bf74bb92c4091ea261879c2fd6de89ac
+.git/objects/79/
+.git/objects/79/3b67c56474a8a2a85c30ade0097505c618cc18
+.git/objects/79/4a6a3555419881afeee6ddf33a8307af77d4a3
+.git/objects/79/718af1277180e643006f7571771e9714e43ab6
+.git/objects/79/8fb272be65f88d1e76c7e1015fd5859b23f131
+.git/objects/7a/
+.git/objects/7a/0ef31e27b7a92fa0b8e78515bac1bd97d32c20
+.git/objects/7b/
+.git/objects/7b/c800ae11096df9c8a527462264821e21d6ff22
+.git/objects/7c/
+.git/objects/7c/40fb73e42abcc5c278b87137075ed5a1891c7e
+.git/objects/7c/66163a4eefd6a9a3e0ea371c29c57fad36c7e5
+.git/objects/7c/8d97af81850d0b968d358ab3d138a3221d6d6f
+.git/objects/7c/d2b92c572c48128e995e2985ebc161a2bfe1af
+.git/objects/7d/
+.git/objects/7d/09e496cef555d308ee9e457ae971f31cfac7d1
+.git/objects/7d/560ad23ab2e285a692ada2d25a058bb7f95c72
+.git/objects/7e/
+.git/objects/7e/9b84c4a673b5ec15c88565f79243c94662b6ed
+.git/objects/7f/
+.git/objects/7f/9b6c90a2dd1e410711430ce5468acf1bcabb4f
+.git/objects/80/
+.git/objects/80/6814b738601c63b7b6842c11bf3fed39f4cc02
+.git/objects/80/8fc2d8986fefe6fa2b995c3fc3b14c98ef61cc
+.git/objects/80/cc8bf22627e70d468d2995ca771c62bad90325
+.git/objects/81/
+.git/objects/81/6e12b1de31c49e5beb4b9836f424bafa87b402
+.git/objects/82/
+.git/objects/82/3e9b3ab6d960305a3b8f1862e8b4542e870c11
+.git/objects/83/
+.git/objects/83/81f7f2de92730381f690fd4f18fd0237ad9743
+.git/objects/84/
+.git/objects/84/0bffafea79db36b3db7fdd71f8ba78bfa94950
+.git/objects/84/1ffc2e5beb83bde653226ef6af3ff33565cd8e
+.git/objects/86/
+.git/objects/86/383ab9686f02a9b9327b6ea49677d962568e63
+.git/objects/86/4b38649107ca7b19c275be585305e2541ccd2e
+.git/objects/86/f5538bc7e5ce0d3c858d4250e2544c726e9565
+.git/objects/87/
+.git/objects/87/edb96bdaae71523ed453a138962618a43b4a8c
+.git/objects/89/
+.git/objects/89/22852ec0a0ac146ec3675c9c61266aeb9599d7
+.git/objects/8b/
+.git/objects/8b/302799b85298dde2298c54052c013156aa7c8d
+.git/objects/8b/73b24a7d2415b7d60fb5c17bd4ccff479f859b
+.git/objects/8b/bd3421553c64695d522d49a0645503dcc8102b
+.git/objects/8d/
+.git/objects/8d/95785c2ae02db432601a5633bbcf18defdb01b
+.git/objects/8d/9637cd045ced39bbb3aa5d7ad07f9c11dc4def
+.git/objects/8e/
+.git/objects/8e/908343fb7ce7918e0550d1a8e60ad76fbb831f
+.git/objects/8f/
+.git/objects/8f/29fffb919394658c3ce1500cf338a0741caf09
+.git/objects/8f/b1f238a5ffe74878c98f627f935ffc344df01f
+.git/objects/90/
+.git/objects/90/fa9c9997e7fafc45cee82330609bc7505ca3be
+.git/objects/91/
+.git/objects/91/057f094809ddaa084af9c0ff9e9e3ed4cd6775
+.git/objects/91/49779eead9efc15389e5e9c1cc4d1da292e04d
+.git/objects/92/
+.git/objects/92/381dd65489b41711773b37fc8ef27f45f3ab34
+.git/objects/92/656350f474fd8cfc3a93649d1aa85dd249acbe
+.git/objects/92/de841000041923927d74f525f60f62271370db
+.git/objects/93/
+.git/objects/93/8c7427694c3ae9c74843c98c657bf377477e19
+.git/objects/93/a0436a83ec75584bc26cf621bdacaf190566c3
+.git/objects/93/be646f7a2bc491d8684975ef6c9a868c4f2beb
+.git/objects/94/
+.git/objects/94/5f72ff3787a843215babfdb319c7a11263781d
+.git/objects/94/636c221fcde69ab7ec54f2a7f913871bf96b58
+.git/objects/96/
+.git/objects/96/1313521936a268939ea09ec0f1961caf6dc1e9
+.git/objects/96/fb2b5dcfdb79959f595a40f348261a89b27354
+.git/objects/97/
+.git/objects/97/1ca6592ea19922076eec28658a27b49b937be5
+.git/objects/98/
+.git/objects/98/3e2eef4134b4a7166501852e1e7ef2cb49ff88
+.git/objects/99/
+.git/objects/99/154b76d22134cb07afdeb076e6ddb218beaf16
+.git/objects/99/6de93411f9e06a56168f46a5da07d5c003215f
+.git/objects/99/8e84516dd4272bd4834616e6973de46ce97414
+.git/objects/9b/
+.git/objects/9b/14a2841b9d9694a8da8a5396e20dd9954a372a
+.git/objects/9b/d6b2f1d93e877ed201e46fb80be4f4eb1ac483
+.git/objects/9c/
+.git/objects/9c/46307c042b250d657b822dd397873c53a2b519
+.git/objects/9c/ce0eef56b0efa67d847f791a28d3c55dc25828
+.git/objects/9e/
+.git/objects/9e/690f8795d2fda22ff86e317602a8d11f9ac277
+.git/objects/9e/f16c0a94962a7ce5cc96d6c2c106fea609434d
+.git/objects/9e/f69ef55161beb70ccf20e510b9fc06adfbc01d
+.git/objects/9f/
+.git/objects/9f/12c3670a9fb544fab66d47fba1328b74d23df5
+.git/objects/9f/3167cfc5c49a1ac5cddb0a369d79a283a81e98
+.git/objects/9f/58e04c0e264cba4e7be2e99b687865a3c6fce8
+.git/objects/9f/a0a6a9e344d050471073f35fe6316ebbf91e17
+.git/objects/a0/
+.git/objects/a0/016bae8a98267201e2ceae8494687308dde98c
+.git/objects/a0/1e44ff9e5da9801eb4ef853e09ddeaeebc2b8b
+.git/objects/a1/
+.git/objects/a1/a82ba3e2d501b86ccd2f969de4734e3d76edf6
+.git/objects/a1/dad68351849c3d5c6214505964a860c391d830
+.git/objects/a1/f90b8b5d50596e118cfcaae2f5f7af6f8ea0e7
+.git/objects/a2/
+.git/objects/a2/1f9a5c20b89891dc1ba0af6508ed0ba32b0050
+.git/objects/a2/9c2e4d2745b1b9d91725e429bb2b7bd4086a5a
+.git/objects/a2/bdd17177b5ca353db75ab0e947e5506c072ff7
+.git/objects/a2/f1b2edf48679f7dfaa39f2a762920ebcd1875d
+.git/objects/a3/
+.git/objects/a3/5c97349856ff459ca90bf803639bdb4cab61c4
+.git/objects/a3/9ac6a01a17e9ad190ffd5c3484ba2a057c17d8
+.git/objects/a4/
+.git/objects/a4/9945618a02dddc5c139320752b21db9f3a909f
+.git/objects/a4/ade269a6eb657b1877314f1d3af42270bfd306
+.git/objects/a4/fb76d1c682862776f6616c8c20670296987943
+.git/objects/a5/
+.git/objects/a5/1b0b018bb56da48a585b28d36337215e3fa32a
+.git/objects/a6/
+.git/objects/a6/ada9da40ae1383390c49f9c244c1920b0eae39
+.git/objects/a7/
+.git/objects/a7/4235a32419ce4dbab42b4477905846034d2fd7
+.git/objects/a8/
+.git/objects/a8/ae49c6f324464b74c79c88d94808c982a6a968
+.git/objects/a9/
+.git/objects/a9/2b2babc8a90b98f688d20dc64b35ee40d81525
+.git/objects/aa/
+.git/objects/aa/716a92f279910191bdd12202db7739bf129abb
+.git/objects/aa/873db1476fcddca599fafe1a49ad8160bcf7aa
+.git/objects/aa/bbb24c201bcf249495ff4915dbd7f97e22e23f
+.git/objects/aa/fc6ddd22799c89246f8812cc9aa57bec151ddc
+.git/objects/ab/
+.git/objects/ab/6850d09ba363e9763b80abf4faa96d5b8491c5
+.git/objects/ab/82e9ebf95c77dc8dc3cca9d38fc6c40b3c6928
+.git/objects/ab/892c11d67d00c6a859321a33a79130da86e3ff
+.git/objects/ac/
+.git/objects/ac/30f30dad350a0089e94f129cd5e763be5d21cc
+.git/objects/ad/
+.git/objects/ad/2226674f2a63c706a14833b403e64695b0aa08
+.git/objects/ad/5fb34217c6c56ce4facb4797ae16646ef31791
+.git/objects/b0/
+.git/objects/b0/daa59112a97d7794278a28730e44bfceec2d6d
+.git/objects/b2/
+.git/objects/b2/27635a02c2db604915e3adec8a1de68e26f0e4
+.git/objects/b2/ae2e725a4106b0e9c4cc33d0dadfc4d274ee27
+.git/objects/b2/bd9add50ef16dcb77ff8d00ed2510348f4fcc7
+.git/objects/b5/
+.git/objects/b5/13366d3fb9873b871f37993c31336f8ff85d7e
+.git/objects/b8/
+.git/objects/b8/38c37ed39346e7750b3ed73133f951fc45632e
+.git/objects/b8/6ee6e473623d40b9bac60df62ae2c916d57a71
+.git/objects/b9/
+.git/objects/b9/5e0cb2b04cc98a5905a14ae895eb0e4471e0bb
+.git/objects/b9/f624bb37a59f2752b0c43e9bb6ca50185713a7
+.git/objects/ba/
+.git/objects/ba/2fd23d2e3710b369a67f64bf3ebef3e73621c1
+.git/objects/ba/9f65e4d8eb2abc51ac0c68392a837a2687bb88
+.git/objects/bb/
+.git/objects/bb/6505d7d4da1030a4068d4f63f3e26e515b49b3
+.git/objects/bb/8710b96e24ccbecf79685929afe78018b40ca7
+.git/objects/bb/b508071b8246088717e25d3c5647b8837c9b0c
+.git/objects/bc/
+.git/objects/bc/0548368bcb3fecf88fd42c5d4562a918163c66
+.git/objects/bc/63d8d0ba1bf9b73e5dab38b4e3e6f138a3bf77
+.git/objects/bc/75584720ab9075edf3543bcc7279ad4a04d535
+.git/objects/bc/c8b543aca4d3eccdc803a99c213f9e05285784
+.git/objects/bd/
+.git/objects/bd/7dc2c3b436e710f84812d71bd1324f5c6bd46d
+.git/objects/bd/7e68b8932983d81af0a2106d539bcb2d3a3e7f
+.git/objects/be/
+.git/objects/be/86c03a9355636dbc860fb6cc652b23bddb43f3
+.git/objects/be/bfc4cd8ad020c2a7a0da46b338297ad363b6d2
+.git/objects/bf/
+.git/objects/bf/20ac151a455ef9b1fdcaa2a579fd78b61e702a
+.git/objects/bf/953382f2238e14dd7c951c817a1d8bc07fe7a3
+.git/objects/bf/cd074ce8e3399bb030356fe628467d9b20aa36
+.git/objects/bf/d6b18d43c6c48c2d305ff75a04195f61bf41c9
+.git/objects/c0/
+.git/objects/c0/073b7f412db945efbe7d288db05550854581e9
+.git/objects/c0/92eecbf3c415eeb3ea1a264fa4b2293fa2956f
+.git/objects/c1/
+.git/objects/c1/8720171cb5db915923543cf619f9b349c6bf55
+.git/objects/c1/abce8f2e487294a289593de6dd2637cdea25e7
+.git/objects/c2/
+.git/objects/c2/a775e21d98cdb2cddcb5d864ed2c00a9fe6bc7
+.git/objects/c3/
+.git/objects/c3/32b64d125a492a97ffd644e58b41fe09e93ef0
+.git/objects/c3/53602d007e9668d45e600a1b684869cfa11915
+.git/objects/c3/daeeb962e0a57edcccf73241b2ea28d88676b5
+.git/objects/c3/dd727e091e4df49a728f8266f808cabd27586b
+.git/objects/c4/
+.git/objects/c4/952783ff78f6c153dad9185d465946441c9473
+.git/objects/c4/f776905cd98cd35380d5cdc04c004983651c92
+.git/objects/c5/
+.git/objects/c5/0d40ba3803e39289c387af17d5b8abdbf597bc
+.git/objects/c5/3974ca449a63ef4bcdde71e840f474359bf49c
+.git/objects/c6/
+.git/objects/c6/1a891827b78af073ede675349836a5267af014
+.git/objects/c6/4b5b87634bea110330215325bbb3435ccd7e31
+.git/objects/c6/b261734f68a8ac8c1836c6dd3adf2fb1f692f2
+.git/objects/c8/
+.git/objects/c8/137a060418e854d05097b053407f2f80b0aa9e
+.git/objects/c8/6030a44e424312d3352816886550df649cf6c7
+.git/objects/c8/9734850d44d8863b644d392b37129dafa6e117
+.git/objects/c9/
+.git/objects/c9/230760bc677c1a0d34566b9cb83caef98cb200
+.git/objects/c9/e48c613972270952dcc1602e2b4531739f97d1
+.git/objects/ca/
+.git/objects/ca/06d9d7d521f726156d9dccadb929b90628bad6
+.git/objects/cb/
+.git/objects/cb/cdbc3be73045b93c708c95617f52408c9b744a
+.git/objects/cc/
+.git/objects/cc/69881a818aa7ac841fe1687529d4d8d68704a2
+.git/objects/ce/
+.git/objects/ce/52fd76a57066ab66452e7ae799a96d2bfe7c37
+.git/objects/cf/
+.git/objects/cf/f67aae5210bacbbb6ae2c3412c27e6651adb98
+.git/objects/d0/
+.git/objects/d0/acd2e66d5c0757fdee2c345b92a3fdb5bcda4a
+.git/objects/d1/
+.git/objects/d1/e3c5ad324ffcc15ed3816f112079f32a1a73ca
+.git/objects/d2/
+.git/objects/d2/e016e7ed9c77c1213a092c402a5605d5476405
+.git/objects/d3/
+.git/objects/d3/646390f98ad4f158ee92910ab943474300b892
+.git/objects/d3/75792175410bc3206788a0f09899803f134728
+.git/objects/d4/
+.git/objects/d4/70a0756739f885cfb9add0220ca85c2e0af162
+.git/objects/d4/c37a6c767f16a90c848decffd6ca38b4524883
+.git/objects/d5/
+.git/objects/d5/939b8dca40a41133f2bd523155149a4dc87392
+.git/objects/d8/
+.git/objects/d8/ec491945ef1f6f7d467b9fce3ab1ab805ec1c3
+.git/objects/d9/
+.git/objects/d9/4ffcfad856aa4691a49d27009358ccb1fbc231
+.git/objects/d9/b28a987442da1a16e7eb0d89ec4134ecf737b2
+.git/objects/d9/d0eb31782abe211c565ad3e4247c9b65b4ca76
+.git/objects/da/
+.git/objects/da/1534feba39c70d61989fba5b5d9e8b8aaedb16
+.git/objects/db/
+.git/objects/db/492af57a78c6e368672323d2bb965a7461f54e
+.git/objects/dc/
+.git/objects/dc/81676aca974992f459c51df2a7d427dbd44e52
+.git/objects/de/
+.git/objects/de/07ae1d6a7e60863f3e2f4f5bfdbee811655724
+.git/objects/de/2dfbf580754a057a32e59c8f68a040090577c2
+.git/objects/de/c15b2211e94410da852338b13b1493b499e88f
+.git/objects/df/
+.git/objects/df/842aa8845628c0c24da41a69f2d60fb6e439e2
+.git/objects/e0/
+.git/objects/e0/2d71de0573b2e55f8863fd4d1d9ef05bcef4a5
+.git/objects/e0/5e76f60c6e6ef162ea996143541ba3fdc2ba5a
+.git/objects/e1/
+.git/objects/e1/03255fbda37c3961690c16ceacead9c4315239
+.git/objects/e1/d85244d097f6bd4a91bb45dfecf1a63e9dd225
+.git/objects/e2/
+.git/objects/e2/41555e3f7631a9a1e6f692bfe6abfca8aecdb5
+.git/objects/e2/e372b3e05dbf7e37d84372179e5b00ae95f5d3
+.git/objects/e3/
+.git/objects/e3/172acc9ce9de88f453f6df5df18110a82ef024
+.git/objects/e4/
+.git/objects/e4/057ea6bb8a0b770c74914767f3f6a7828dfd48
+.git/objects/e4/1d8db5a63d3e5616fcdb8da3ae9fc72e79ae24
+.git/objects/e6/
+.git/objects/e6/ec668132e836c6163f9c48806bf4990aa260b8
+.git/objects/e9/
+.git/objects/e9/2fcd987743dfb141dbaf644a2bc7f3cfef9fbb
+.git/objects/ea/
+.git/objects/ea/29648e44b3a0191fae1e788c235025f65ed3bd
+.git/objects/ec/
+.git/objects/ec/ba7affbb51f3d8d6b69a5258425822c133d60c
+.git/objects/ed/
+.git/objects/ed/b18b8f1cb3bf215dd3272453ee8ca5c280fa9a
+.git/objects/ed/c89ee5bcd5c3d95973c61e729f716af0a14725
+.git/objects/ee/
+.git/objects/ee/4263ca2445b17884684ef746f03c2d6a8eb8ac
+.git/objects/ee/87d7019178b0ef78e39f96a71764bad5738ee3
+.git/objects/ee/ce40a629f13d2d3af4b215824e47b91d37d4a4
+.git/objects/ef/
+.git/objects/ef/b0ef096ba99315b474f8c5b62762e5ef608a41
+.git/objects/f0/
+.git/objects/f0/003c8c0d9fe005f7dea0fb072e0dba4cd92786
+.git/objects/f0/3c069d350ad184e0e7337580d9fa567a7e755e
+.git/objects/f1/
+.git/objects/f1/5ca3cbbef6c1313056cd62582d47b29de6bfa9
+.git/objects/f1/6b646559c3f7d84bc81a9e33fcaeb50fcf53bf
+.git/objects/f2/
+.git/objects/f2/07a544a8194b6f4ef7e3fd0a5fab733468436c
+.git/objects/f2/711eea2ef17e3e472554c796c204fcbb98347a
+.git/objects/f2/83ef1b4ba42fcb57aebeffaaef21b947212e45
+.git/objects/f3/
+.git/objects/f3/ab087d4c67261bc6e6f31121137380f042be03
+.git/objects/f4/
+.git/objects/f4/62fbe0089d990cc55bd6e083fc33bfb15a3ff3
+.git/objects/f5/
+.git/objects/f5/cd73f6c0914d3c59a10cb64205d54e27d5a18c
+.git/objects/f6/
+.git/objects/f6/5db7f506cd49bda7349f4923fd532100a1796e
+.git/objects/f7/
+.git/objects/f7/2485f2464482b853338dd1149e7b4f1a6c6b8f
+.git/objects/f8/
+.git/objects/f8/91545b986c1b317029a8ea3f0991429a209590
+.git/objects/f8/c933e2269773361df43802fa389b31faa58882
+.git/objects/f8/f33ea12bb4b2bfd6948c26557ea5b8bcd68b6a
+.git/objects/f9/
+.git/objects/f9/07baccfa5f120085c365f4622e736e1c22605b
+.git/objects/f9/189cd2fd45af23dd0c0329ac0e8d194ae694ea
+.git/objects/f9/65a69dd8301eaa708ca390b9547127c465c474
+.git/objects/f9/d538a5096677131f102811305a56bbddb0c005
+.git/objects/fa/
+.git/objects/fa/3734af2743c9e82af34d2e5fdcae27401f4afa
+.git/objects/fa/65f8c53f8e4987ae15cbc13944f0d64130f01d
+.git/objects/fb/
+.git/objects/fb/503d210718ce4ab9289147ca56a1da9b51db63
+.git/objects/fb/645f08f199a7b68f9c59c755b427eb9d7fa570
+.git/objects/fc/
+.git/objects/fc/035bfedebcdb13d0cfb3bb60c673e496c6c117
+.git/objects/fc/19ac6087b7d6f7a9d1625e48584aab15b8d081
+.git/objects/fc/a86b18f1b30943c1d14ee230dd0e1f87791b80
+.git/objects/fe/
+.git/objects/fe/169d0b95872b395a0cac3d9700500d407292c7
+.git/objects/fe/92f7b2e7e31b42bc454568ac0c95a2a8e9e6ec
+.git/objects/fe/b3efbbc0acb1c4414c5a177dc94d7d4aeb7bc9
+.git/objects/fe/e5fd96be625f37a7682c69737b005afced1a95
+.git/objects/ff/
+.git/objects/ff/3ad385fdb28956488008b6278c74a3df3e0a2a
+.git/objects/ff/8bfee8a9c8bb4f8fbc51811ae78215d1720262
+.git/objects/ff/a59452b767ed81f18724825dc3d76c2eaff4aa
+.git/objects/info/
+.git/objects/pack/
+.git/refs/
+.git/refs/heads/
+.git/refs/heads/master
+.git/refs/remotes/
+.git/refs/remotes/origin/
+.git/refs/remotes/origin/master
+.git/refs/tags/
+SetupFiles/
+SetupFiles/.DS_Store
+SetupFiles/SetupVMFromScratch - Drupal.txt
+SetupFiles/phpStormSettings.jar
+SetupFiles/ConfigFiles/
+SetupFiles/ConfigFiles/.DS_Store
+SetupFiles/ConfigFiles/LetsEncrypt/
+SetupFiles/ConfigFiles/LetsEncrypt/.DS_Store
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/.DS_Store
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/.DS_Store
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/conf/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/conf/httpd-le-ssl.conf
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/.updated-options-ssl-apache-conf-digest.txt
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/options-ssl-apache.conf
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/meta.json
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/private_key.json
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/regr.json
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/archive/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/archive/aquinnwork.com/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/archive/aquinnwork.com/cert1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/archive/aquinnwork.com/chain1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/archive/aquinnwork.com/fullchain1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/archive/aquinnwork.com/privkey1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/csr/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/csr/0000_csr-certbot.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/keys/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/keys/0000_key-certbot.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/README
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/aquinnwork.com/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/aquinnwork.com/README
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/aquinnwork.com/cert.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/aquinnwork.com/chain.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/aquinnwork.com/fullchain.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/live/aquinnwork.com/privkey.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/renewal-hooks/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/renewal-hooks/deploy/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/renewal-hooks/post/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/renewal-hooks/pre/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/renewal/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com copy/aquinnwork.com/letsencrypt/renewal/aquinnwork.com.conf
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/.DS_Store
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/conf/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/conf/httpd-le-ssl.conf
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/.DS_Store
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/.updated-options-ssl-apache-conf-digest.txt
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/options-ssl-apache.conf
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/meta.json
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/private_key.json
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/accounts/acme-v02.api.letsencrypt.org/directory/cf789b310975c51aa0c77c32daa12cdb/regr.json
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/archive/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/archive/aquinnwork.com/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/archive/aquinnwork.com/cert1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/archive/aquinnwork.com/chain1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/archive/aquinnwork.com/fullchain1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/archive/aquinnwork.com/privkey1.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/csr/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/csr/0000_csr-certbot.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/keys/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/keys/0000_key-certbot.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/README
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/aquinnwork.com/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/aquinnwork.com/README
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/aquinnwork.com/cert.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/aquinnwork.com/chain.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/aquinnwork.com/fullchain.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/live/aquinnwork.com/privkey.pem
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/renewal-hooks/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/renewal-hooks/deploy/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/renewal-hooks/post/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/renewal-hooks/pre/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/renewal/
+SetupFiles/ConfigFiles/LetsEncrypt/old aquinnwork.com/letsencrypt/renewal/aquinnwork.com.conf
+SetupFiles/ConfigFiles/Webmin/
+SetupFiles/ConfigFiles/apache/
+SetupFiles/ConfigFiles/apache/.DS_Store
+SetupFiles/ConfigFiles/apache/Frank/
+SetupFiles/ConfigFiles/apache/Frank/.DS_Store
+SetupFiles/ConfigFiles/apache/Frank/.git/
+SetupFiles/ConfigFiles/apache/Frank/.git/FETCH_HEAD
+SetupFiles/ConfigFiles/apache/Frank/.git/HEAD
+SetupFiles/ConfigFiles/apache/Frank/.git/ORIG_HEAD
+SetupFiles/ConfigFiles/apache/Frank/.git/config
+SetupFiles/ConfigFiles/apache/Frank/.git/description
+SetupFiles/ConfigFiles/apache/Frank/.git/index
+SetupFiles/ConfigFiles/apache/Frank/.git/packed-refs
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/applypatch-msg.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/commit-msg.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/fsmonitor-watchman.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/post-update.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/pre-applypatch.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/pre-commit.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/pre-merge-commit.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/pre-push.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/pre-rebase.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/pre-receive.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/prepare-commit-msg.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/hooks/update.sample
+SetupFiles/ConfigFiles/apache/Frank/.git/info/
+SetupFiles/ConfigFiles/apache/Frank/.git/info/exclude
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/HEAD
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/refs/
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/refs/heads/
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/refs/heads/master
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/refs/remotes/
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/refs/remotes/origin/
+SetupFiles/ConfigFiles/apache/Frank/.git/logs/refs/remotes/origin/HEAD
+SetupFiles/ConfigFiles/apache/Frank/.git/objects/
+SetupFiles/ConfigFiles/apache/Frank/.git/objects/info/
+SetupFiles/ConfigFiles/apache/Frank/.git/objects/pack/
+SetupFiles/ConfigFiles/apache/Frank/.git/objects/pack/pack-9343d64b45646ab21cce002b93373eb1afa172d5.idx
+SetupFiles/ConfigFiles/apache/Frank/.git/objects/pack/pack-9343d64b45646ab21cce002b93373eb1afa172d5.pack
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/heads/
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/heads/master
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/remotes/
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/remotes/origin/
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/remotes/origin/HEAD
+SetupFiles/ConfigFiles/apache/Frank/.git/refs/tags/
+SetupFiles/ConfigFiles/apache/Frank/conf/
+SetupFiles/ConfigFiles/apache/Frank/conf/httpd.ORGINAL
+SetupFiles/ConfigFiles/apache/Frank/conf/httpd.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/magic
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/dev-80.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/dev.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/foundation-80.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/foundation.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/news-80.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/news.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/nmu-80.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/nmu.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/README.txt
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/case_check.map.dir
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/case_check.map.pag
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/case_check.txt
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/how_to_make_map
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.config.BK
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.config.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.d7sites.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.d8redirects.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.redirects.BK
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.redirects.conf
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.sites.BK
+SetupFiles/ConfigFiles/apache/Frank/conf/nmu/shared_config/www.sites.conf
+SetupFiles/ConfigFiles/fail2ban/
+SetupFiles/ConfigFiles/fail2ban/README.txt
+SetupFiles/ConfigFiles/fail2ban/fail2ban.local
+SetupFiles/ConfigFiles/fail2ban/jail.local
+SetupFiles/ConfigFiles/mariadb/
+SetupFiles/ConfigFiles/mariadb/.DS_Store
+SetupFiles/ConfigFiles/mariadb/my.cnf
+SetupFiles/ConfigFiles/openssl/
+SetupFiles/ConfigFiles/openssl/openssl.cnf
+SetupFiles/ConfigFiles/php/
+SetupFiles/ConfigFiles/php/php.ini
+SetupFiles/ConfigFiles/phpmyadmin/
+SetupFiles/ConfigFiles/phpmyadmin/config.inc.php
+SetupFiles/ConfigFiles/samba/
+SetupFiles/ConfigFiles/samba/smb.conf
+scripts/
+scripts/.DS_Store
+scripts/ShellScripts/
+scripts/ShellScripts/.DS_Store
+scripts/ShellScripts/Core_Common.php
+scripts/ShellScripts/Core_Common.sh
+scripts/ShellScripts/Guest_AutoCR.sh
+scripts/ShellScripts/Guest_Backup.sh
+scripts/ShellScripts/Guest_Build.sh
+scripts/ShellScripts/Guest_CertBotRenew.sh
+scripts/ShellScripts/Guest_DB.sh
+scripts/ShellScripts/Guest_DBDiff.php
+scripts/ShellScripts/Guest_DrushDrupalSync.php
+scripts/ShellScripts/Guest_FileLock.sh
+scripts/ShellScripts/Guest_HTTPSync.sh
+scripts/ShellScripts/Guest_Msg.sh
+scripts/ShellScripts/Guest_Site.php
+scripts/ShellScripts/Guest_Site.sh
+scripts/ShellScripts/VM-Mgmt.sh
+scripts/ShellScripts/scripts_fix_php.sh
+scripts/ShellScripts/GhostInspector/
+scripts/ShellScripts/GhostInspector/TestRunner.php
+scripts/ShellScripts/rsync_excludes/
+scripts/ShellScripts/rsync_excludes/.DS_Store
+scripts/ShellScripts/rsync_excludes/Beef.exclude
+scripts/ShellScripts/rsync_excludes/Drupal.exclude
+scripts/ShellScripts/rsync_excludes/Webb.exclude
+scripts/ShellScripts/rsync_excludes/all.exclude
+scripts/ShellScripts/rsync_excludes/apache_setup_charlie.exclude
+scripts/ShellScripts/rsync_excludes/apache_setup_frank.exclude
+scripts/ShellScripts/rsync_excludes/apache_sync.exclude
+scripts/ShellScripts/rsync_excludes/charlie.exclude
+scripts/ShellScripts/rsync_excludes/cmsphp.exclude
+scripts/ShellScripts/rsync_excludes/content.exclude
+scripts/ShellScripts/rsync_excludes/libraries.exclude
+scripts/ShellScripts/rsync_excludes/sites.exclude
+scripts/ShellScripts/rsync_excludes/www.exclude
+scripts/UserConfig/
+scripts/UserConfig/.DS_Store
+scripts/UserConfig/mint.sh
+scripts/UserConfig/aquinn/
+scripts/UserConfig/aquinn/.DS_Store
+scripts/UserConfig/aquinn/ProfileAddOns.sh
+scripts/UserConfig/aquinn/Terminal/
+scripts/UserConfig/aquinn/Terminal/.DS_Store
+scripts/UserConfig/aquinn/Terminal/Grass.terminal
+scripts/UserConfig/aquinn/Terminal/Guest.terminal
+scripts/UserConfig/aquinn/Terminal/Homebrew.terminal
+scripts/UserConfig/aquinn/Terminal/Ocean.terminal
+scripts/UserConfig/aquinn/Terminal/OceanUp.terminal
+scripts/UserConfig/aquinn/Terminal/Silver Aerogel Up.terminal
+scripts/UserConfig/aquinn/Terminal/Silver Aerogel.terminal
+scripts/UserConfig/drewquinn/
+scripts/UserConfig/drewquinn/.DS_Store
+scripts/UserConfig/drewquinn/ProfileAddOns.sh
+scripts/UserConfig/drewquinn/Terminal/
+scripts/UserConfig/drewquinn/Terminal/.DS_Store
+scripts/UserConfig/drewquinn/Terminal/Grass.terminal
+scripts/UserConfig/drewquinn/Terminal/Guest.terminal
+scripts/UserConfig/drewquinn/Terminal/Homebrew.terminal
+scripts/UserConfig/drewquinn/Terminal/Ocean.terminal
+scripts/UserConfig/drewquinn/Terminal/OceanUp.terminal
+scripts/UserConfig/drewquinn/Terminal/Silver Aerogel Up.terminal
+scripts/UserConfig/drewquinn/Terminal/Silver Aerogel.terminal
+
+sent 1182834 bytes  received 14832 bytes  159688.80 bytes/sec
+total size is 1759060  speedup is 1.47

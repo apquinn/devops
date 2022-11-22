@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BackgroundColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAhMC4xMzIwNTYyNCAwLjMwODQ3ODU2IDAu
+	NzM5MTMwNDQAEAGAAtIUFRYXWiRjbGFzc25hbWVYJGNsYXNzZXNXTlNDb2xvcqIWGFhO
+	U09iamVjdAgRGiQpMjdJTFFTV11kand+oqSmq7a/x8oAAAAAAAABAQAAAAAAAAAZAAAA
+	AAAAAAAAAAAAAAAA0w==
+	</data>
+	<key>Font</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGkCwwVFlUkbnVsbNQNDg8QERIT
+	FFZOU1NpemVYTlNmRmxhZ3NWTlNOYW1lViRjbGFzcyNALAAAAAAAABAQgAKAA1dDb3Vy
+	aWVy0hcYGRpaJGNsYXNzbmFtZVgkY2xhc3Nlc1ZOU0ZvbnSiGRtYTlNPYmplY3QIERok
+	KTI3SUxRU1heZ253foWOkJKUnKGstby/AAAAAAAAAQEAAAAAAAAAHAAAAAAAAAAAAAAA
+	AAAAAMg=
+	</data>
+	<key>FontAntialias</key>
+	<true/>
+	<key>FontWidthSpacing</key>
+	<real>0.99596774193548387</real>
+	<key>ProfileCurrentVersion</key>
+	<real>2.0699999999999998</real>
+	<key>SelectionColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxARElVO
+	U1JHQlxOU0NvbG9yU3BhY2VWJGNsYXNzTxAXMC4xMzA3MzkzIDAuNDI4NDU4MDYgMQAQ
+	AYAC0hQVFhdaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEa
+	JCkyN0lMUVNXXWRqd36YmpyhrLW9wAAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAA
+	AADJ
+	</data>
+	<key>TextBoldColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxAREldO
+	U1doaXRlXE5TQ29sb3JTcGFjZVYkY2xhc3NCMQAQA4AC0hQVFhdaJGNsYXNzbmFtZVgk
+	Y2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRseYCDhYeMl6Co
+	qwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC0
+	</data>
+	<key>TextColor</key>
+	<data>
+	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
+	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGjCwwTVSRudWxs0w0ODxAREldO
+	U1doaXRlXE5TQ29sb3JTcGFjZVYkY2xhc3NCMQAQA4AC0hQVFhdaJGNsYXNzbmFtZVgk
+	Y2xhc3Nlc1dOU0NvbG9yohYYWE5TT2JqZWN0CBEaJCkyN0lMUVNXXWRseYCDhYeMl6Co
+	qwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC0
+	</data>
+	<key>columnCount</key>
+	<integer>160</integer>
+	<key>fontAllowsDisableAntialias</key>
+	<integer>0</integer>
+	<key>name</key>
+	<string>OceanUp</string>
+	<key>rowCount</key>
+	<integer>48</integer>
+	<key>shellExitAction</key>
+	<integer>0</integer>
+	<key>type</key>
+	<string>Window Settings</string>
+	<key>warnOnShellCloseAction</key>
+	<integer>0</integer>
+</dict>
+</plist>

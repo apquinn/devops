@@ -1,0 +1,6 @@
+DrewVar_smbHost_charlie="prIus20.20"
+DrewVar_smbHost_franklin="prIus20.20"
+DrewVar_smbHost_synology="prIus18.18"
+DrewVar_ENTERED_Guest_ShortNameSaved="mint"
+DrewVar_ENTERED_Address_GuestSaved="45.79.52.62"
+DrewVar_Guest_PW="SolidWood4U"
